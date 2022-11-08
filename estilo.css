@@ -1,0 +1,421 @@
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;200;300;400;500;600;700&display=swap");
+
+body {
+  font-family: "Encode Sans", sans-serif;
+  width: 100%;
+}
+
+.topo {
+  height: 54px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  background-color: rgba(255, 255, 255, 1);
+  z-index: 1;
+}
+
+.barra-topo {
+  height: 54px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 935px;
+}
+.logo-instagram {
+  display: flex;
+  width: 148px;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10px;
+  font-size: 25px;
+}
+.dm-614 {
+  margin-right: 10px;
+  display:none;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.instagram {
+  display: flex;
+  align-items: center;
+}
+
+.linha-vertical {
+  height: 22px;
+  border-right: 1px solid #dbdbdb;
+}
+
+.linhahorizontal {
+  margin-top: 54px;
+  width: 100%;
+  border-bottom: 1px solid #DBDBDB;
+  position: fixed;
+  z-index: 1;
+}
+
+.itens {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 148px;
+  margin-right: 10px;
+  position: relative;
+  font-size: 25px;
+}
+
+.itens div {
+  position: relative;
+}
+.linhahorizontal {
+  border-top: 1px solid #dbdbdb;
+}
+.pag {
+  display: flex;
+  justify-content: center;
+  margin: 0px auto;
+  height: 100%;
+  width: 100%;
+  background: #f5f5f5;
+}
+
+.teste {
+  font-size: 100px;
+}
+.conteudo-principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 614px;
+  margin-top: 50px;
+  margin-bottom:50px;
+  /*background-color: royalblue;*/
+}
+
+input {
+  text-align: center;
+  background-color: #f8f5f5;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin-top: 110px;
+  margin-left: 29px;
+  /*background-color: green;*/
+  /*position: absolute;*/
+}
+
+.post {
+  width: 100%;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #dbdbdb;
+  margin-bottom: 60px;
+  background-color: rgba(248, 248, 248, 0.925);
+}
+
+.redonda {
+  border-radius: 50%;
+}
+
+.inicio {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 14px;
+  margin-top: 14px;
+}
+span{
+  font-weight: bold;
+}
+
+.foto-nome {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 17px;
+}
+
+.foto-nome h1 {
+  margin-left: 15px;
+}
+
+.reticencias {
+  margin-right: 19px;
+}
+
+.parte1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+
+.salvar{
+  margin-right: 18px;
+}
+
+.reacoes {
+  display: flex;
+  justify-content: space-between;
+  width: 90px;
+  margin-left: 18px;
+}
+
+.parte2 {
+  display: flex;
+  justify-content: left;
+  margin-left: 18px;
+  margin-top: 12px;
+}
+.parte2 h2 {
+  margin-left: 5px;
+}
+
+.parte2 img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.parte3{
+  margin-left: 18px;
+  margin-top: 12px;
+  line-height: 25px;
+  margin-bottom: 18px;
+}
+
+.comentario{
+  display: flex;
+  justify-content: space-between;
+}
+
+.like{
+  margin-right: 18px;
+}
+
+.parte4{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-top: 1px;
+  border-style: solid;
+  border-color: #dbdbdb;
+}
+
+.parte4 h1{
+  margin-right: 16px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #B2DFFC;
+}
+
+.parte4 h1:hover{
+  color:#0095F6;
+  cursor: pointer;
+  transition-duration: 300ms;
+}
+
+.carinha{
+  margin-left: 18px;
+}
+
+
+.fim {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.sidebar-topo {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top: 5px;
+}
+
+.sidebar-topo div {
+  display: block;
+  justify-content: center;
+  margin-left: 17px;
+}
+
+.sidebar-meio {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
+.sidebar-meio p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500px;
+  font-size: 12px;
+  color: #8e8e8e;
+}
+
+.sidebar-base {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 16px;
+}
+
+
+
+
+.imagem-texto {
+  display: flex;
+  align-items: center;
+}
+
+.imagem-texto div {
+  display: block;
+  justify-content: center;
+  margin-left: 17px;
+}
+
+.sidebar h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #262626;
+}
+
+.sidebar h2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  color: #8e8e8e;
+}
+
+.sidebar p {
+  font-weight: 500;
+  font-size: 12px;
+  color: #139EF2;
+}
+.sidebar h3{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px; 
+  color: #C7C7C7;
+ 
+}
+
+.seta{
+  position: absolute;
+  right: 5px;
+
+}
+
+.story {
+  overflow: hidden;
+  display: flex;
+
+
+
+  position: relative;
+  justify-content: flex-start;
+  align-items: center;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #dbdbdb;
+  width: 614px;
+  height: 118px;
+  margin-top: 34px;
+  margin-bottom: 24px;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.stories {
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.stories h1 {
+  margin-top: 5px;
+}
+
+.stories div {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+.casa{
+  margin-left: 18px;
+}
+
+.base{
+  height: 54px;
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+  width: 612px;
+  background-color: rgba(248, 248, 248, 1);
+  
+}
+
+@media (max-width: 935px) {
+  .sidebar {
+    display: none;
+  }
+  .barra-topo {
+    width: 100%;
+  }
+}
+
+@media (max-width: 614px) {
+  .conteudo-principal {
+    width: 100%;
+  }
+  .linha-vertical,
+  .itens,
+  .input {
+    display: none;
+  }
+  .logo-instagram {
+    width: 100%;
+  }
+  .story {
+    width: 100%;
+    background: none;
+  }
+  .base{
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    display: flex;
+  }
+  .dm-614{
+    display: block;
+  }
+  .seta{
+    display: none;
+  }
+}
+
